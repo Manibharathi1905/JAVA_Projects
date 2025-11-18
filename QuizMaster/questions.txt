@@ -1,0 +1,50 @@
+What is the capital of India?|New Delhi|Mumbai|Chennai|Kolkata|A
+Which method starts a thread in Java?|run()|start()|execute()|begin()|B
+Which collection allows duplicates?|Set|List|Map|TreeSet|B
+Java is ___?|Platform Independent|Machine Dependent|Low Level|None|A
+Which keyword is used to inherit a class in Java?|extends|super|this|inherits|A
+Which data type is used for decimal values?|int|double|char|String|B
+Who invented Java?|James Gosling|Dennis Ritchie|Bjarne Stroustrup|Guido van Rossum|A
+Which OOP concept uses "extends"?|Abstraction|Inheritance|Polymorphism|Encapsulation|B
+Which collection stores key-value pairs?|List|Set|Map|Queue|C
+JVM stands for?|Java Virtual Machine|Java Visual Model|Joint Virtual Module|None|A
+Which loop runs at least once?|for|while|do-while|foreach|C
+Which operator is used for comparing values?|=|==|!=|<>|B
+Which access modifier is most restrictive?|public|protected|default|private|D
+Which package is default in Java?|java.util|java.io|java.awt|java.lang|D
+Which keyword is used to prevent inheritance?|static|final|private|protected|B
+What does IDE stand for?|Integrated Development Environment|Internal Debug Engine|Interactive Dev Editor|None|A
+Which sorting algorithm is fastest on average?|Bubble|Insertion|Quick|Selection|C
+What is the size of int in Java?|2 bytes|4 bytes|8 bytes|Depends on OS|B
+What is ASCII?|Character Encoding|Image Format|Algorithm|Protocol|A
+Which is NOT an OOP concept?|Inheritance|Encapsulation|Polymorphism|Compilation|D
+Which keyword creates an object?|allocate|create|new|make|C
+What is the parent class of all Java classes?|Object|Parent|Base|Super|A
+Which exception occurs when array index is invalid?|IOException|NullPointerException|ArrayIndexOutOfBoundsException|ArithmeticException|C
+What is HTML used for?|Styling|Structuring web pages|Database|Data transfer|B
+Which protocol is used to send emails?|SMTP|HTTP|FTP|IMAP|A
+Which memory stores objects in Java?|Stack|Heap|Registers|Cache|B
+Which keyword is used for error handling?|check|catch|throw|Both B and C|D
+Which Java version introduced lambdas?|Java 5|Java 6|Java 8|Java 11|C
+Which searching algorithm works on sorted data?|Linear|Binary|DFS|BFS|B
+Which one is a NoSQL database?|MySQL|MongoDB|Oracle|PostgreSQL|B
+Which operator is used for logical AND?|&&|&|AND|+&|A
+Which is a checked exception?|IOException|NullPointerException|ArithmeticException|ArrayIndexOutOfBoundsException|A
+Which class is immutable?|String|StringBuilder|StringBuffer|List|A
+Which protocol is used for secure communication?|HTTP|HTTPS|FTP|SFTP|B
+Which of the following is a JVM language?|Python|Kotlin|JavaScript|Ruby|B
+Which keyword is used for interfaces?|interface|implements|inherit|abstract|A
+Which method is called automatically during object creation?|destroy()|finalize()|init()|constructor|D
+Which keyword stops a loop?|return|stop|end|break|D
+A byte in Java is how many bits?|4|8|16|32|B
+Which sorting algorithm uses divide and conquer?|Bubble|Selection|QuickSort|Insertion|C
+What is the default value of boolean?|true|false|null|0|B
+Which collection is synchronized?|ArrayList|HashMap|Vector|TreeSet|C
+Which one is not a Java primitive type?|int|float|boolean|String|D
+Which SQL command retrieves data?|INSERT|UPDATE|SELECT|DELETE|C
+Which technology runs Java bytecode?|Compiler|JVM|Operating System|Assembler|B
+Which file extension is for compiled Java files?|.java|.class|.jar|.exe|B
+Which java.util class represents a resizable array?|Vector|List|ArrayList|Map|C
+What is the superclass of exceptions in Java?|Throwable|Error|RuntimeException|Exception|A
+What is the capital of India?|New Delhi|Mumbai|Chennai|Kolkata|A
+Which method starts a thread in Java?|run()|start()|execute()|begin()|B

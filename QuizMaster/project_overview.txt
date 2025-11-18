@@ -1,0 +1,36 @@
+QuizMaster Project Overview
+
+QuizMaster is a console-based quiz application built in Java, designed to demonstrate clean Object-Oriented Programming (OOP) principles and professional software architecture. The project emphasizes separation of concerns, modularity, and error handling, making it a solid example of enterprise-level Java development.
+
+Key Features:
+- Clean OOP Architecture: Utilizes classes, interfaces, and inheritance for maintainable code.
+- Package Structure: Organized into logical packages (core, models, services, utils, exceptions) for better code organization.
+- File I/O: Loads quiz questions from a text file (questions.txt) with a specific format.
+- Score Tracking: Tracks correct and wrong answers, calculates total score.
+- Utility Classes: Includes helper classes for user interaction and data parsing.
+- Error Handling: Custom exceptions for invalid question formats and robust file reading.
+- Fully Runnable: Compiles and runs directly from the command line without external dependencies.
+
+Project Structure:
+- src/com/quizmaster/
+  - Main.java: Entry point of the application.
+  - core/: Core business logic (QuizEngine, ScoreManager, QuestionParser).
+  - models/: Data models (Question, Score).
+  - services/: Service layer (QuestionService interface, FileQuestionService implementation).
+  - utils/: Utility classes (ConsoleUI for user interaction).
+  - exceptions/: Custom exceptions (QuestionFormatException).
+
+How to Run:
+1. Navigate to the project root directory.
+2. Compile: javac src/com/quizmaster/**/*.java
+3. Run: java -cp src com.quizmaster.Main
+
+The application will load questions from questions.txt, shuffle them, present them to the user via console input, and display the final score upon completion.
+
+Technologies Used:
+- Java (standard library only, no external dependencies).
+- File I/O for data persistence.
+- Collections framework for data manipulation.
+- Exception handling for robustness.
+
+This project serves as an excellent template for building console-based applications with a focus on clean architecture and best practices.

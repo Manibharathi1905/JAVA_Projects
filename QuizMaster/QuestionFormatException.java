@@ -1,0 +1,7 @@
+package com.quizmaster.exceptions;
+
+public class QuestionFormatException extends Exception {
+    public QuestionFormatException(String message) {
+        super(message);
+    }
+}
