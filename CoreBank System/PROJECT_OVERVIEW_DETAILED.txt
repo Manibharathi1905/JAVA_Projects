@@ -1,0 +1,67 @@
+CoreBank System - Project Overview
+
+Overview:
+The CoreBank System is a console-based simple banking application developed in Java. It showcases core concepts of Object-Oriented Programming such as inheritance and encapsulation, and utilizes an SQL database backend for data persistence.
+
+Key Features:
+- Supports two types of accounts: SavingsAccount and CurrentAccount, using inheritance from a base Account class.
+- Basic banking operations including account creation, deposits, withdrawals, transfers between accounts, and balance inquiries.
+- Transaction logging with viewing capability for all account-related transactions.
+- SQLite/MySQL database integration for persistent data storage.
+
+Architecture:
+1. Models:
+   - Account.java (abstract base)
+   - SavingsAccount.java (concrete subclass)
+   - CurrentAccount.java (concrete subclass with overdraft)
+
+2. Services:
+   - AccountService.java: Manages accounts CRUD operations connecting to database.
+   - TransactionService.java: Manages transaction logs and history.
+
+3. Database Layer:
+   - Database.java: Singleton connection to the database (SQLite or MySQL).
+   - setup.sql: SQL schema for accounts and transactions tables.
+
+4. Entry Point:
+   - Main.java: Console user interface to interact with the system features in a menu.
+
+Usage:
+- Compile all Java files ensuring the SQL JDBC driver is in classpath.
+- Configure database connection parameters in Database.java.
+- Run Main.java and operate via the text menu.
+
+The system provides a foundational and extensible platform for banking system simulation with essential banking features.
+
+---
+
+Critical Functionalities to Test After MySQL Transition:
+
+1. Account Management:
+   - Creating new Savings or Current accounts with valid input data.
+   - Handling invalid input or unsupported account types during account creation.
+   - Fetching account details accurately from the database.
+
+2. Financial Transactions:
+   - Depositing an amount correctly updates the account balance.
+   - Withdrawing an amount considers balance and overdraft limit (for CurrentAccount), prevents overdrawing beyond limits.
+   - Transferring funds deducts from sender and adds to receiver, with appropriate balance validations.
+   - Handling failed transactions gracefully without corrupting data.
+
+3. Transaction Logging:
+   - All deposit, withdrawal, and transfer operations are logged with correct metadata (type, amount, account id, timestamp).
+   - Ability to retrieve and display transaction history per account.
+
+4. Database Integration:
+   - All account and transaction changes persist correctly in the MySQL database.
+   - Proper handling of SQL exceptions and resource management (connections, statements).
+   - Foreign key constraints between transactions and accounts work as intended.
+
+5. Console UI and Input Handling:
+   - Menu-driven interface correctly maps user choices to operations.
+   - Input validations prevent crashes or invalid data entry.
+   - Appropriate user feedback/messages for success/failure cases.
+
+Testing Scope Options:
+- Critical-path testing covering main happy paths of account creation, deposits, withdrawals, transfers, and transaction logging.
+- Thorough testing with full coverage including error paths, invalid inputs, edge cases like overdraft limits, empty transaction history, and database failures.
